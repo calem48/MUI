@@ -7,10 +7,12 @@ function App() {
 
   return (
     <>
-      <Container sx={{ backrgoundColor: 'blue' }} >
-        <Box>1</Box>
-        <Box>2</Box>
-      </Container>
+      <Box sx={{ backgroundColor: 'red' }}>
+        <Container sx={{ backgroundColor: 'blue' }} >
+          <Box >1</Box>
+          <Box >2</Box>
+        </Container>
+      </Box>
     </>
   )
 }
