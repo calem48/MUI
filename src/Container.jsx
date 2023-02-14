@@ -5,7 +5,7 @@ import { createTheme, styled, ThemeProvider } from "@mui/material";
 
 export default function CustomContainer({ children }) {
 
-    const NavbarContainer = styled(Container)(({ theme }) => ({
+    const CustomContainer = styled(Container)(({ theme }) => ({
         margin: "0 auto",
         paddingLeft: "15px",
         paddingRight: "15px",
@@ -36,7 +36,7 @@ export default function CustomContainer({ children }) {
 
     return (
         <ThemeProvider theme={theme}>
-            <NavbarContainer>{children}</NavbarContainer>
+            <CustomContainer>{children}</CustomContainer>
         </ThemeProvider>
     )
 }
